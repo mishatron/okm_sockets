@@ -60,3 +60,530 @@ Sun Apr 22 11:03:58 2018
  --- Error!!! 10054
 Sun Apr 22 11:03:59 2018
  --- Error!!! 10054
+Sun Apr 22 11:18:46 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:18:51 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 11:18:51 2018
+ --- start tcp listen
+Sun Apr 22 11:18:57 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 11:19:00 2018
+ --- connection:  172.31.9.65, port: 18673
+Sun Apr 22 11:19:21 2018
+ ---  9 bytes received from Client:name rot
+
+Sun Apr 22 11:19:21 2018
+ --- command name
+Sun Apr 22 11:19:25 2018
+ --- connection:  172.31.9.65, port: 18675
+Sun Apr 22 11:19:37 2018
+ ---  14 bytes received from Client:mesg rot:polo
+
+Sun Apr 22 11:19:37 2018
+ --- command mesg
+Sun Apr 22 11:19:49 2018
+ ---  4 bytes received from Client:dsf
+
+Sun Apr 22 11:20:18 2018
+ ---  14 bytes received from Client:mesg rot:popo
+
+Sun Apr 22 11:20:18 2018
+ --- command mesg
+Sun Apr 22 11:20:56 2018
+ ---  5 bytes received from rot:stat
+
+Sun Apr 22 11:20:56 2018
+ --- command stat
+Sun Apr 22 11:20:58 2018
+ ---  4 bytes received from rot:sdf
+
+Sun Apr 22 11:21:01 2018
+ ---  4 bytes received from rot:sdf
+
+Sun Apr 22 11:21:05 2018
+ ---  5 bytes received from rot:stat
+
+Sun Apr 22 11:21:05 2018
+ --- command stat
+Sun Apr 22 11:21:25 2018
+ ---  18 bytes received from rot:mesg Client:uuuuu
+
+Sun Apr 22 11:21:25 2018
+ --- command mesg
+Sun Apr 22 11:21:38 2018
+ ---  2 bytes received from Client:e
+
+Sun Apr 22 11:21:40 2018
+ ---  2 bytes received from Client:e
+
+Sun Apr 22 11:21:42 2018
+ ---  4 bytes received from Client:sdf
+
+Sun Apr 22 11:21:42 2018
+ ---  4 bytes received from Client:sdf
+
+Sun Apr 22 11:21:43 2018
+ ---  3 bytes received from Client:sd
+
+Sun Apr 22 11:21:49 2018
+ ---  2 bytes received from Client:f
+
+Sun Apr 22 11:21:55 2018
+ ---  12 bytes received from Client:bcst tyuiop
+
+Sun Apr 22 11:21:55 2018
+ --- command bcst
+Sun Apr 22 11:22:00 2018
+ ---  2 bytes received from rot:t
+
+Sun Apr 22 11:22:04 2018
+ ---  3 bytes received from rot:df
+
+Sun Apr 22 11:22:05 2018
+ ---  2 bytes received from rot:d
+
+Sun Apr 22 11:22:06 2018
+ ---  2 bytes received from rot:s
+
+Sun Apr 22 11:22:09 2018
+ ---  4 bytes received from rot:124
+
+Sun Apr 22 11:25:28 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:25:33 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 11:25:33 2018
+ --- start tcp listen
+Sun Apr 22 11:25:39 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 11:25:42 2018
+ --- connection:  172.31.9.65, port: 18681
+Sun Apr 22 11:25:58 2018
+ --- Error!!! 10054
+Sun Apr 22 11:26:00 2018
+ --- connection:  172.31.9.65, port: 18682
+Sun Apr 22 11:26:17 2018
+ ---  5 bytes received from Client:vgvk
+
+Sun Apr 22 11:26:30 2018
+ ---  22 bytes received from Client:qwertyuioprdtfhjkl;'/
+
+Sun Apr 22 11:26:43 2018
+ --- connection:  172.31.9.65, port: 18683
+Sun Apr 22 11:26:54 2018
+ ---  3 bytes received from Client:rf
+
+Sun Apr 22 11:26:57 2018
+ ---  5 bytes received from Client:stat
+
+Sun Apr 22 11:26:57 2018
+ --- command stat
+Sun Apr 22 11:27:09 2018
+ ---  11 bytes received from Client:name ghghg
+
+Sun Apr 22 11:27:09 2018
+ --- command name
+Sun Apr 22 11:27:11 2018
+ ---  5 bytes received from ghghg:stat
+
+Sun Apr 22 11:27:11 2018
+ --- command stat
+Sun Apr 22 11:27:19 2018
+ ---  9 bytes received from ghghg:bcst 123
+
+Sun Apr 22 11:27:19 2018
+ --- command bcst
+Sun Apr 22 11:27:31 2018
+ ---  9 bytes received from ghghg:bcst 456
+
+Sun Apr 22 11:27:31 2018
+ --- command bcst
+Sun Apr 22 11:28:00 2018
+ ---  8 bytes received from Client:name g2
+
+Sun Apr 22 11:28:00 2018
+ --- command name
+Sun Apr 22 11:28:04 2018
+ ---  5 bytes received from ghghg:stat
+
+Sun Apr 22 11:28:04 2018
+ --- command stat
+Sun Apr 22 11:28:11 2018
+ ---  13 bytes received from ghghg:mesg g2:text
+
+Sun Apr 22 11:28:11 2018
+ --- command mesg
+Sun Apr 22 11:28:40 2018
+ ---  5 bytes received from ghghg:stat
+
+Sun Apr 22 11:28:40 2018
+ --- command stat
+Sun Apr 22 11:28:46 2018
+ ---  9 bytes received from ghghg:bcst qqq
+
+Sun Apr 22 11:28:46 2018
+ --- command bcst
+Sun Apr 22 11:29:24 2018
+ ---  12 bytes received from ghghg:kill Client
+
+Sun Apr 22 11:29:24 2018
+ --- command kill
+Sun Apr 22 11:29:28 2018
+ ---  5 bytes received from ghghg:stat
+
+Sun Apr 22 11:29:28 2018
+ --- command stat
+Sun Apr 22 11:29:33 2018
+ ---  5 bytes received from ghghg:pare
+
+Sun Apr 22 11:29:33 2018
+ --- command pare - eho paused
+Sun Apr 22 11:29:35 2018
+ ---  10 bytes received from ghghg:dkjfgndfg
+
+Sun Apr 22 11:29:36 2018
+ ---  7 bytes received from ghghg:dfgdfg
+
+Sun Apr 22 11:29:36 2018
+ ---  3 bytes received from ghghg:df
+
+Sun Apr 22 11:29:36 2018
+ ---  4 bytes received from ghghg:dfg
+
+Sun Apr 22 11:29:36 2018
+ ---  3 bytes received from ghghg:df
+
+Sun Apr 22 11:29:40 2018
+ ---  5 bytes received from ghghg:pare
+
+Sun Apr 22 11:29:40 2018
+ --- command pare - eho resumed
+Sun Apr 22 11:29:41 2018
+ ---  4 bytes received from ghghg:sdf
+
+Sun Apr 22 11:29:51 2018
+ ---  12 bytes received from ghghg:bcst uiuuuu
+
+Sun Apr 22 11:29:51 2018
+ --- command bcst
+Sun Apr 22 11:30:03 2018
+ ---  2 bytes received from g2:q
+
+Sun Apr 22 11:30:11 2018
+ ---  11 bytes received from ghghg:bcst yyyyy
+
+Sun Apr 22 11:30:11 2018
+ --- command bcst
+Sun Apr 22 11:30:19 2018
+ ---  5 bytes received from g2:stat
+
+Sun Apr 22 11:30:19 2018
+ --- command stat
+Sun Apr 22 11:30:31 2018
+ --- Error!!! 10054
+Sun Apr 22 11:30:32 2018
+ --- Error!!! 10054
+Sun Apr 22 11:33:08 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:33:13 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 11:33:13 2018
+ --- start tcp listen
+Sun Apr 22 11:33:19 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 11:33:22 2018
+ --- connection:  172.31.9.65, port: 18700
+Sun Apr 22 11:33:31 2018
+ --- connection:  172.31.9.65, port: 18701
+Sun Apr 22 11:33:39 2018
+ ---  5 bytes received from Client:stat
+
+Sun Apr 22 11:33:39 2018
+ --- command stat
+Sun Apr 22 11:33:48 2018
+ ---  8 bytes received from Client:name g2
+
+Sun Apr 22 11:33:48 2018
+ --- command name
+Sun Apr 22 11:33:52 2018
+ ---  5 bytes received from Client:stat
+
+Sun Apr 22 11:33:52 2018
+ --- command stat
+Sun Apr 22 11:33:58 2018
+ ---  10 bytes received from Client:bcst gggg
+
+Sun Apr 22 11:33:58 2018
+ --- command bcst
+Sun Apr 22 11:34:07 2018
+ ---  13 bytes received from Client:mesg g2:text
+
+Sun Apr 22 11:34:07 2018
+ --- command mesg
+Sun Apr 22 11:34:17 2018
+ ---  2 bytes received from g2:d
+
+Sun Apr 22 11:34:18 2018
+ ---  2 bytes received from g2:d
+
+Sun Apr 22 11:34:23 2018
+ ---  13 bytes received from Client:mesg g2:text
+
+Sun Apr 22 11:34:23 2018
+ --- command mesg
+Sun Apr 22 11:34:37 2018
+ ---  11 bytes received from g2:bcst rrrrr
+
+Sun Apr 22 11:34:37 2018
+ --- command bcst
+Sun Apr 22 11:34:41 2018
+ ---  7 bytes received from Client:qweqwe
+
+Sun Apr 22 11:34:44 2018
+ ---  2 bytes received from Client:e
+
+Sun Apr 22 11:34:50 2018
+ --- Error!!! 10054
+Sun Apr 22 11:34:50 2018
+ --- Error!!! 10054
+Sun Apr 22 11:37:18 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:37:23 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 11:37:23 2018
+ --- start tcp listen
+Sun Apr 22 11:37:29 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 11:37:29 2018
+ --- connection:  172.31.9.65, port: 18711
+Sun Apr 22 11:37:49 2018
+ ---  16 bytes received from Client:mesg Client:hhh
+
+Sun Apr 22 11:37:49 2018
+ --- command mesg
+Sun Apr 22 11:37:52 2018
+ ---  2 bytes received from Client:q
+
+Sun Apr 22 11:39:36 2018
+ --- Error!!! 10054
+Sun Apr 22 11:41:35 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:41:40 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 11:41:40 2018
+ --- start tcp listen
+Sun Apr 22 11:41:46 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 11:41:46 2018
+ --- connection:  172.31.9.65, port: 18721
+Sun Apr 22 11:41:53 2018
+ ---  7 bytes received from Client:werwer
+
+Sun Apr 22 11:41:54 2018
+ ---  7 bytes received from Client:werwer
+
+Sun Apr 22 11:41:55 2018
+ ---  4 bytes received from Client:wer
+
+Sun Apr 22 11:41:55 2018
+ ---  4 bytes received from Client:wer
+
+Sun Apr 22 11:41:55 2018
+ ---  3 bytes received from Client:we
+
+Sun Apr 22 11:41:55 2018
+ ---  4 bytes received from Client:rwe
+
+Sun Apr 22 11:41:55 2018
+ ---  2 bytes received from Client:r
+
+Sun Apr 22 11:41:55 2018
+ ---  4 bytes received from Client:wer
+
+Sun Apr 22 11:41:56 2018
+ ---  3 bytes received from Client:we
+
+Sun Apr 22 11:41:56 2018
+ ---  2 bytes received from Client:r
+
+Sun Apr 22 11:41:59 2018
+ --- Error!!! 10054
+Sun Apr 22 11:44:31 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:44:36 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 11:44:37 2018
+ --- start tcp listen
+Sun Apr 22 11:44:42 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 11:44:43 2018
+ --- connection:  172.31.9.65, port: 18730
+Sun Apr 22 11:44:50 2018
+ ---  4 bytes received from Client:sdf
+
+Sun Apr 22 11:44:56 2018
+ ---  10 bytes received from Client:bcst tyty
+
+Sun Apr 22 11:44:56 2018
+ --- command bcst
+Sun Apr 22 11:45:00 2018
+ ---  2 bytes received from Client:r
+
+Sun Apr 22 11:45:27 2018
+ ---  10 bytes received from Client:bcst oooo
+
+Sun Apr 22 11:45:27 2018
+ --- command bcst
+Sun Apr 22 11:45:35 2018
+ --- Error!!! 10054
+Sun Apr 22 11:46:15 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:46:15 2018
+ --- Datagram from:172.31.9.65, port 65130 - it is server
+Sun Apr 22 11:46:15 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 11:46:15 2018
+ --- Closing receiving socket.
+Sun Apr 22 11:46:15 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 11:47:06 2018
+ --- 5 bytes received 
+Sun Apr 22 11:47:51 2018
+ --- 4 bytes received 
+Sun Apr 22 11:48:17 2018
+ --- 4 bytes received 
+Sun Apr 22 11:48:39 2018
+ --- 10 bytes received 
+Sun Apr 22 11:49:55 2018
+ --- 10 bytes received 
+Sun Apr 22 11:50:10 2018
+ --- 4 bytes received 
+Sun Apr 22 11:52:31 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:52:36 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 11:52:36 2018
+ --- start tcp listen
+Sun Apr 22 11:52:42 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 11:52:42 2018
+ --- connection:  172.31.9.65, port: 18736
+Sun Apr 22 11:52:51 2018
+ ---  9 bytes received from Client:name rot
+
+Sun Apr 22 11:52:51 2018
+ --- command name
+Sun Apr 22 11:52:55 2018
+ --- connection:  172.31.9.65, port: 18737
+Sun Apr 22 11:53:02 2018
+ ---  9 bytes received from Client:bcst ggg
+
+Sun Apr 22 11:53:02 2018
+ --- command bcst
+Sun Apr 22 11:53:04 2018
+ ---  3 bytes received from Client:fs
+
+Sun Apr 22 11:53:06 2018
+ ---  5 bytes received from Client:stat
+
+Sun Apr 22 11:53:06 2018
+ --- command stat
+Sun Apr 22 11:53:19 2018
+ ---  14 bytes received from Client:mesg rot:text
+
+Sun Apr 22 11:53:19 2018
+ --- command mesg
+Sun Apr 22 11:53:31 2018
+ ---  9 bytes received from Client:bcst ioi
+
+Sun Apr 22 11:53:31 2018
+ --- command bcst
+Sun Apr 22 11:53:36 2018
+ ---  4 bytes received from rot:sdf
+
+Sun Apr 22 11:53:39 2018
+ --- Error!!! 10054
+Sun Apr 22 11:53:41 2018
+ --- Error!!! 10054
+Sun Apr 22 11:57:50 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:57:55 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 11:57:55 2018
+ --- start tcp listen
+Sun Apr 22 11:58:01 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 11:58:01 2018
+ --- connection:  172.31.9.65, port: 18748
+Sun Apr 22 11:58:17 2018
+ --- connection:  172.31.9.65, port: 18749
+Sun Apr 22 11:58:21 2018
+ ---  8 bytes received from Client:bcst rr
+
+Sun Apr 22 11:58:21 2018
+ --- command bcst
+Sun Apr 22 11:58:21 2018
+ --- Socket closed!  
+Sun Apr 22 11:58:30 2018
+ --- Error!!! 10054
+Sun Apr 22 12:01:12 2018
+ --- Receiving datagrams...
+Sun Apr 22 12:01:17 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 12:01:17 2018
+ --- start tcp listen
+Sun Apr 22 12:01:23 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 12:01:24 2018
+ --- connection:  172.31.9.65, port: 18754
+Sun Apr 22 12:01:28 2018
+ --- Error!!! 10054
+Sun Apr 22 12:01:32 2018
+ --- connection:  172.31.9.65, port: 18757
+Sun Apr 22 12:01:34 2018
+ --- Error!!! 10054
+Sun Apr 22 12:08:45 2018
+ --- Receiving datagrams...
+Sun Apr 22 12:08:45 2018
+ --- Datagram from:172.31.9.65, port 51561 - it is server
+Sun Apr 22 12:08:45 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 12:08:45 2018
+ --- Closing receiving socket.
+Sun Apr 22 12:08:45 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 12:09:39 2018
+ --- Receiving datagrams...
+Sun Apr 22 12:09:44 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 12:09:44 2018
+ --- start tcp listen
+Sun Apr 22 12:09:50 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 12:10:07 2018
+ --- connection:  172.31.9.65, port: 18869
+Sun Apr 22 12:10:11 2018
+ ---  7 bytes received from Client:vghjko
+
+Sun Apr 22 12:10:23 2018
+ --- connection:  172.31.9.65, port: 18870
+Sun Apr 22 12:10:28 2018
+ ---  8 bytes received from Client:bcst ds
+
+Sun Apr 22 12:10:28 2018
+ --- command bcst
+Sun Apr 22 12:10:39 2018
+ --- Error!!! 10054
+Sun Apr 22 12:10:40 2018
+ --- Error!!! 10054
+Sun Apr 22 12:11:36 2018
+ --- Receiving datagrams...
+Sun Apr 22 12:11:41 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 12:11:41 2018
+ --- start tcp listen
+Sun Apr 22 12:11:47 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 12:11:48 2018
+ --- connection:  172.31.9.65, port: 18874

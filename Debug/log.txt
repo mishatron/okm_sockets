@@ -1,52 +1,291 @@
-Fri Apr 20 11:13:53 2018
+Sun Apr 22 11:33:22 2018
  --- Receiving datagrams...
-Fri Apr 20 11:13:53 2018
- --- Datagram from:172.31.9.65, port 54933 - it is server
-Fri Apr 20 11:13:53 2018
+Sun Apr 22 11:33:22 2018
+ --- Datagram from:172.31.9.65, port 58519 - it is server
+Sun Apr 22 11:33:22 2018
  --- Finished receiving. Closing socket.
-Fri Apr 20 11:13:53 2018
+Sun Apr 22 11:33:22 2018
  --- Closing receiving socket.
-Fri Apr 20 11:13:53 2018
+Sun Apr 22 11:33:22 2018
  --- connection:  172.31.9.65, socket: 8001
-Fri Apr 20 11:14:07 2018
- --- 13 bytes received 
-Fri Apr 20 11:14:10 2018
- --- 11 bytes received 
-Fri Apr 20 11:14:15 2018
- --- quit
-Fri Apr 20 11:14:15 2018
- --- closing socket on client
-Sun Apr 22 10:58:20 2018
+Sun Apr 22 11:33:31 2018
  --- Receiving datagrams...
-Sun Apr 22 10:58:20 2018
- --- Datagram from:172.31.9.65, port 57523 - it is server
-Sun Apr 22 10:58:20 2018
+Sun Apr 22 11:33:31 2018
+ --- Datagram from:172.31.9.65, port 58519 - it is server
+Sun Apr 22 11:33:31 2018
  --- Finished receiving. Closing socket.
-Sun Apr 22 10:58:20 2018
+Sun Apr 22 11:33:31 2018
  --- Closing receiving socket.
-Sun Apr 22 10:58:20 2018
+Sun Apr 22 11:33:31 2018
  --- connection:  172.31.9.65, socket: 8001
-Sun Apr 22 10:58:30 2018
- --- 4 bytes received 
-Sun Apr 22 10:58:40 2018
- --- quit
-Sun Apr 22 10:59:04 2018
- --- Receiving datagrams...
-Sun Apr 22 10:59:04 2018
- --- Datagram from:172.31.9.65, port 57523 - it is server
-Sun Apr 22 10:59:04 2018
- --- Finished receiving. Closing socket.
-Sun Apr 22 10:59:04 2018
- --- Closing receiving socket.
-Sun Apr 22 10:59:04 2018
- --- connection:  172.31.9.65, socket: 8001
-Sun Apr 22 10:59:12 2018
- --- 4 bytes received 
-Sun Apr 22 10:59:12 2018
- --- 4 bytes received 
-Sun Apr 22 11:00:18 2018
+Sun Apr 22 11:33:39 2018
+ --- 20 bytes received 
+Sun Apr 22 11:33:48 2018
+ --- 8 bytes received 
+Sun Apr 22 11:33:52 2018
+ --- 16 bytes received 
+Sun Apr 22 11:34:17 2018
  --- 10 bytes received 
-Sun Apr 22 11:00:25 2018
- --- 11 bytes received 
-Sun Apr 22 11:00:29 2018
+Sun Apr 22 11:34:18 2018
+ --- 2 bytes received 
+Sun Apr 22 11:34:41 2018
+ --- 12 bytes received 
+Sun Apr 22 11:34:44 2018
+ --- 2 bytes received 
+Sun Apr 22 11:37:29 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:37:29 2018
+ --- Datagram from:172.31.9.65, port 50760 - it is server
+Sun Apr 22 11:37:29 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 11:37:29 2018
+ --- Closing receiving socket.
+Sun Apr 22 11:37:29 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 11:37:52 2018
+ --- 6 bytes received 
+Sun Apr 22 11:41:46 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:41:46 2018
+ --- Datagram from:172.31.9.65, port 64874 - it is server
+Sun Apr 22 11:41:46 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 11:41:46 2018
+ --- Closing receiving socket.
+Sun Apr 22 11:41:46 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 11:44:43 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:44:43 2018
+ --- Datagram from:172.31.9.65, port 61902 - it is server
+Sun Apr 22 11:44:43 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 11:44:43 2018
+ --- Closing receiving socket.
+Sun Apr 22 11:44:43 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 11:44:50 2018
  --- 4 bytes received 
+Sun Apr 22 11:45:00 2018
+ --- 6 bytes received 
+Sun Apr 22 11:45:42 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:46:09 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 11:46:09 2018
+ --- start tcp listen
+Sun Apr 22 11:46:15 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 11:46:15 2018
+ --- connection:  172.31.9.65, port: 18732
+Sun Apr 22 11:46:49 2018
+ ---  5 bytes received from Client:qwer
+
+Sun Apr 22 11:47:40 2018
+ ---  9 bytes received from Client:bcst ggg
+
+Sun Apr 22 11:47:40 2018
+ --- command bcst
+Sun Apr 22 11:48:03 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:48:03 2018
+ --- Datagram from:172.31.9.65, port 65130 - it is server
+Sun Apr 22 11:48:03 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 11:48:03 2018
+ --- Closing receiving socket.
+Sun Apr 22 11:48:03 2018
+ --- connection:  172.31.9.65, port: 18734
+Sun Apr 22 11:48:03 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 11:48:10 2018
+ ---  9 bytes received from Client:bcst fff
+
+Sun Apr 22 11:48:10 2018
+ --- command bcst
+Sun Apr 22 11:48:10 2018
+ --- 4 bytes received 
+Sun Apr 22 11:48:33 2018
+ ---  10 bytes received from Client:name popo
+
+Sun Apr 22 11:48:33 2018
+ --- command name
+Sun Apr 22 11:48:50 2018
+ ---  10 bytes received from Client:mesg popo
+
+Sun Apr 22 11:48:50 2018
+ --- command mesg
+Sun Apr 22 11:48:57 2018
+ ---  5 bytes received from Client:sert
+
+Sun Apr 22 11:48:57 2018
+ --- 5 bytes received 
+Sun Apr 22 11:49:07 2018
+ ---  15 bytes received from Client:mesg popo:text
+
+Sun Apr 22 11:49:07 2018
+ --- command mesg
+Sun Apr 22 11:49:17 2018
+ ---  5 bytes received from Client:stat
+
+Sun Apr 22 11:49:17 2018
+ --- command stat
+Sun Apr 22 11:49:17 2018
+ --- 18 bytes received 
+Sun Apr 22 11:49:31 2018
+ ---  10 bytes received from Client:bcst rrrr
+
+Sun Apr 22 11:49:31 2018
+ --- command bcst
+Sun Apr 22 11:49:42 2018
+ ---  2 bytes received from popo:e
+
+Sun Apr 22 11:50:03 2018
+ ---  9 bytes received from Client:bcst sss
+
+Sun Apr 22 11:50:03 2018
+ --- command bcst
+Sun Apr 22 11:50:03 2018
+ --- 8 bytes received 
+Sun Apr 22 11:51:12 2018
+ --- Socket closed!  
+Sun Apr 22 11:51:55 2018
+ --- Error!!! 10054
+Sun Apr 22 11:52:40 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:52:42 2018
+ --- Datagram from:172.31.9.65, port 64366 - it is server
+Sun Apr 22 11:52:42 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 11:52:42 2018
+ --- Closing receiving socket.
+Sun Apr 22 11:52:42 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 11:52:51 2018
+ --- 9 bytes received 
+Sun Apr 22 11:52:55 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:52:55 2018
+ --- Datagram from:172.31.9.65, port 64366 - it is server
+Sun Apr 22 11:52:55 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 11:52:55 2018
+ --- Closing receiving socket.
+Sun Apr 22 11:52:55 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 11:53:02 2018
+ --- 4 bytes received 
+Sun Apr 22 11:53:02 2018
+ --- 4 bytes received 
+Sun Apr 22 11:53:04 2018
+ --- 3 bytes received 
+Sun Apr 22 11:53:06 2018
+ --- 17 bytes received 
+Sun Apr 22 11:53:19 2018
+ --- 6 bytes received 
+Sun Apr 22 11:53:31 2018
+ --- 4 bytes received 
+Sun Apr 22 11:53:36 2018
+ --- 4 bytes received 
+Sun Apr 22 11:57:58 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:58:01 2018
+ --- Datagram from:172.31.9.65, port 57856 - it is server
+Sun Apr 22 11:58:01 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 11:58:01 2018
+ --- Closing receiving socket.
+Sun Apr 22 11:58:01 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 11:58:09 2018
+ --- quit
+Sun Apr 22 11:58:17 2018
+ --- Receiving datagrams...
+Sun Apr 22 11:58:17 2018
+ --- Datagram from:172.31.9.65, port 57856 - it is server
+Sun Apr 22 11:58:17 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 11:58:17 2018
+ --- Closing receiving socket.
+Sun Apr 22 11:58:17 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 11:58:21 2018
+ --- 3 bytes received 
+Sun Apr 22 11:58:21 2018
+ --- closing socket on client
+Sun Apr 22 11:58:21 2018
+ --- 3 bytes received 
+Sun Apr 22 12:01:24 2018
+ --- Receiving datagrams...
+Sun Apr 22 12:01:24 2018
+ --- Datagram from:172.31.9.65, port 59985 - it is server
+Sun Apr 22 12:01:24 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 12:01:24 2018
+ --- Closing receiving socket.
+Sun Apr 22 12:01:24 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 12:01:32 2018
+ --- Receiving datagrams...
+Sun Apr 22 12:01:32 2018
+ --- Datagram from:172.31.9.65, port 59985 - it is server
+Sun Apr 22 12:01:32 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 12:01:32 2018
+ --- Closing receiving socket.
+Sun Apr 22 12:01:32 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 12:08:28 2018
+ --- Receiving datagrams...
+Sun Apr 22 12:08:33 2018
+ --- recvfrom failed with error 10060
+Sun Apr 22 12:08:33 2018
+ --- start tcp listen
+Sun Apr 22 12:08:39 2018
+ --- Sending a datagram to the receiver (future tcp client)... 
+Sun Apr 22 12:08:45 2018
+ --- connection:  172.31.9.65, port: 18850
+Sun Apr 22 12:08:54 2018
+ --- Socket closed!  
+Sun Apr 22 12:10:07 2018
+ --- Receiving datagrams...
+Sun Apr 22 12:10:07 2018
+ --- Datagram from:172.31.9.65, port 57816 - it is server
+Sun Apr 22 12:10:07 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 12:10:07 2018
+ --- Closing receiving socket.
+Sun Apr 22 12:10:07 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 12:10:11 2018
+ --- 7 bytes received 
+Sun Apr 22 12:10:14 2018
+ --- quit
+Sun Apr 22 12:10:23 2018
+ --- Receiving datagrams...
+Sun Apr 22 12:10:23 2018
+ --- Datagram from:172.31.9.65, port 57816 - it is server
+Sun Apr 22 12:10:23 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 12:10:23 2018
+ --- Closing receiving socket.
+Sun Apr 22 12:10:23 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 12:10:28 2018
+ --- 3 bytes received 
+Sun Apr 22 12:11:48 2018
+ --- Receiving datagrams...
+Sun Apr 22 12:11:48 2018
+ --- Datagram from:172.31.9.65, port 50850 - it is server
+Sun Apr 22 12:11:48 2018
+ --- Finished receiving. Closing socket.
+Sun Apr 22 12:11:48 2018
+ --- Closing receiving socket.
+Sun Apr 22 12:11:48 2018
+ --- connection:  172.31.9.65, socket: 8001
+Sun Apr 22 12:11:53 2018
+ --- quit
+Sun Apr 22 12:11:58 2018
+ --- Socket closed!  
+Sun Apr 22 12:11:58 2018
+ --- closing socket on client

@@ -1,16 +1,5 @@
-﻿  udp_server.cpp
-  udp_client.cpp
-  tcp_server.cpp
-e:\внту\okm_\okm2017_zf\okm2017_zf\friday_server\friday_server\tcp_server.cpp(121): warning C4101: 'client_addr_len': unreferenced local variable
-e:\внту\okm_\okm2017_zf\okm2017_zf\friday_server\friday_server\tcp_server.cpp(271): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
-e:\внту\okm_\okm2017_zf\okm2017_zf\friday_server\friday_server\tcp_server.cpp(206): warning C4101: 'len': unreferenced local variable
-e:\внту\okm_\okm2017_zf\okm2017_zf\friday_server\friday_server\tcp_server.cpp(210): warning C4101: 'r': unreferenced local variable
-  tcp_client.cpp
-e:\внту\okm_\okm2017_zf\okm2017_zf\friday_server\friday_server\tcp_client.cpp(109): warning C4101: 'adrbuf': unreferenced local variable
-e:\внту\okm_\okm2017_zf\okm2017_zf\friday_server\friday_server\tcp_client.cpp(113): warning C4101: 'serv_addr_len': unreferenced local variable
-e:\внту\okm_\okm2017_zf\okm2017_zf\friday_server\friday_server\tcp_client.cpp(120): warning C4101: 'r': unreferenced local variable
-  Generating Code...
-  Compiling...
-  main.cpp
-  Generating Code...
+﻿  tcp_client.cpp
+e:\внту\okm_\okm2017_zf\okm2017_zf\friday_server\friday_server\tcp_client.cpp(114): warning C4101: 'adrbuf': unreferenced local variable
+e:\внту\okm_\okm2017_zf\okm2017_zf\friday_server\friday_server\tcp_client.cpp(118): warning C4101: 'serv_addr_len': unreferenced local variable
+e:\внту\okm_\okm2017_zf\okm2017_zf\friday_server\friday_server\tcp_client.cpp(126): warning C4101: 'r': unreferenced local variable
   Friday_Server.vcxproj -> E:\ВНТУ\OKM_\OKM2017_zf\OKM2017_zf\Friday_Server\Debug\Friday_Server.exe

@@ -16,9 +16,11 @@
 
 #define SERVER_PORT2  8001
 char bufer[200];
+char bufer2[200];
 extern IN_ADDR server_addr;
 extern Logger logger;
-
+bool exitFlag = 0;
+CRITICAL_SECTION csExit;
 int readlineC(SOCKET c, char *buf)
 {
 	int rez, num = 0;
@@ -26,6 +28,11 @@ int readlineC(SOCKET c, char *buf)
 
 	while (1)
 	{
+
+		EnterCriticalSection(&csExit);
+		if (exitFlag) break;
+		LeaveCriticalSection(&csExit);
+
 		rez = recv(c, buf, 1, 0);
 
 		if (rez>0)
@@ -91,15 +98,18 @@ void readFromKeyboard(SOCKET ms)
 	int len = 0;
 	do
 	{
-		fgets(bufer, 200, stdin);
+		fgets(bufer2, 200, stdin);
 
-		if (strcmp(bufer, "quit\n") == 0) {
+		if (strcmp(bufer2, "quit\n") == 0) {
 			logger.write("quit");
-			break;
+			EnterCriticalSection(&csExit);
+			exitFlag = 1;
+			LeaveCriticalSection(&csExit);
+			return;
 		}
-		if ((len = strlen(bufer)) == 1)continue;
+		if ((len = strlen(bufer2)) == 1)continue;
 
-		writelineC(ms, bufer, len);
+		writelineC(ms, bufer2, len);
 	} while (1);
 }
 int tcp_client()
@@ -114,6 +124,7 @@ int tcp_client()
 
 	setlocale(LC_ALL, "Ukrainian");
 
+	InitializeCriticalSection(&csExit);
 	//--------------------------
 	WORD wVersionRequested;
 	WSADATA wsaData;
@@ -162,7 +173,7 @@ int tcp_client()
 	reader.detach();
 	do
 	{
-		
+
 		len = readlineC(ms, bufer);
 		if (len > 1)
 		{

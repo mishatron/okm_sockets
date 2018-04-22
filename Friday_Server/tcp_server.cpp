@@ -157,18 +157,45 @@ void workWithSocket(int index)
 			{
 				if (clients[i].name == name)
 				{
+					clients[i].clear();
 					closesocket(clientSockets[i]);
 					break;
 				}
 			}
 		}
-		else if (strncmp(buf, "bcst", 4) == 0)//maybe ready
+		else if (strncmp(buf, "bcst", 4) == 0)//ready
 		{
 			logger.write("command bcst");
 			std::string bcst = buf;
 			bcst = bcst.substr(5);
 			for (int i = 0; i<curClientSocket; ++i)
-				writeline(clientSockets[i], (char *)bcst.c_str(), sizeof((char *)bcst.c_str()));
+				writeline(clientSockets[i], (char *)bcst.c_str(), bcst.size());
+		}
+		else if (strncmp(buf, "mesg", 4) == 0)//ready
+		{
+			logger.write("command mesg");
+			std::string mesg = buf;
+			mesg = mesg.substr(5);
+			std::string name = "";
+			int i = 0;
+			for (;i<mesg.size();++i)
+			{
+				if (mesg[i] != ':')
+					name += mesg[i];
+				else break;
+			}
+			std::string text = "";
+			for (; i < mesg.size(); ++i)
+				text += mesg[i];
+			text += "\n";
+			for (int i = 0; i < curClientSocket; ++i)
+			{
+				if (clients[i].name == name)
+				{
+					writeline(clientSockets[i], (char *)text.c_str(), text.size());
+					//break;
+				}
+			}
 		}
 		else if (strncmp(buf, "pare", 4) == 0)//ready
 		{

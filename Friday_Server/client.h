@@ -31,5 +31,9 @@ public:
 	{
 		name = n;
 	}
+	void clear()
+	{
+		name = "---";
+	}
 
 };
