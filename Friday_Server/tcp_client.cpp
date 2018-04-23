@@ -11,6 +11,7 @@
 #include "Logger.h"
 #include <string>
 #include<thread>
+#include <iostream>
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
 
@@ -47,6 +48,10 @@ int readlineC(SOCKET c, char *buf)
 		{
 			printf("Socket closed!\n");
 			logger.write("Socket closed!  ");
+
+			EnterCriticalSection(&csExit);
+			exitFlag = 1;
+			LeaveCriticalSection(&csExit);
 			return 0;
 		}
 		else
@@ -59,6 +64,11 @@ int readlineC(SOCKET c, char *buf)
 			default:  //інші помилки
 				printf("Error!!! %d\n", WSAGetLastError());
 				logger.write("Error!!! " + std::to_string(WSAGetLastError()));
+
+				EnterCriticalSection(&csExit);
+				exitFlag = 1;
+				LeaveCriticalSection(&csExit);
+
 				return 0;
 			}
 		}
@@ -169,10 +179,25 @@ int tcp_client()
 	logger.write("connection:  " + std::string(inet_ntoa(serv_addr.sin_addr)) +
 		", socket: " + std::to_string(ntohs(serv_addr.sin_port)));
 
+	//enterning name
+	char q[] = "name ";
+	printf("enter name:");
+	char res[200];
+	memset(res, '\0', sizeof(res));
+	strcpy(res, q);
+	fgets(bufer2, 200, stdin);
+	strcat(res, bufer2);
+	writelineC(ms, res, strlen(res));
+	//
+
 	std::thread reader(readFromKeyboard, ms);
 	reader.detach();
 	do
 	{
+
+		EnterCriticalSection(&csExit);
+		if (exitFlag) break;
+		LeaveCriticalSection(&csExit);
 
 		len = readlineC(ms, bufer);
 		if (len > 1)
