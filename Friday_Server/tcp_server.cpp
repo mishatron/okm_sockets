@@ -33,6 +33,7 @@ std::vector<client> clients;
 int curClientSocket = 0;
 bool isPare = true;
 extern Logger logger;
+std::string keyword = "";
 void Next()
 {
 	outstr_d--;
@@ -125,6 +126,8 @@ void workWithSocket(int index)
 		std::cout <<"\r"<< len << " bytes received from " << (clients[index].name).c_str() << ": \n" << buf;
 		logger.write("\r "+std::to_string(len)+ " bytes received from " + 
 			clients[index].name.c_str()+ ":" + buf);
+
+
 		//printf("\r%d bytes received from %s :\n%s", len, clients[index].name, buf);
 		if (strncmp(buf, "stat",4)==0)//ready
 		{
@@ -168,8 +171,20 @@ void workWithSocket(int index)
 			logger.write("command bcst");
 			std::string bcst = buf;
 			bcst = bcst.substr(5);
+			if (keyword != "")
+			{
+				std::string cur = bcst;
+				if (keyword == cur)exit(0);
+			}
 			for (int i = 0; i<curClientSocket; ++i)
 				writeline(clientSockets[i], (char *)bcst.c_str(), bcst.size());
+		}
+
+		else if (strncmp(buf, "key", 3) == 0)//ready
+		{
+			logger.write("command key");
+			std::string key = buf;
+			keyword = key.substr(4);
 		}
 		else if (strncmp(buf, "mesg", 4) == 0)//ready
 		{
@@ -188,6 +203,11 @@ void workWithSocket(int index)
 			for (; i < mesg.size(); ++i)
 				text += mesg[i];
 			text += "\n";
+			if (keyword != "")
+			{
+				std::string cur = text;
+				if (keyword == cur)exit(0);
+			}
 			for (int i = 0; i < curClientSocket; ++i)
 			{
 				if (clients[i].name == name)
@@ -216,6 +236,12 @@ void workWithSocket(int index)
 		}
 		else//eho
 		{
+			if (keyword != "")
+			{
+				std::string cur = buf;
+				if (keyword == buf)exit(0);
+			}
+
 			if (isPare)
 				writeline(clientSockets[index], buf, len);
 			else
